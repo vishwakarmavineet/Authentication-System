@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="/css/home.css">
+
+<div id="home-container">
+
+        <% if(locals.user){%>
+                <h1>Profile -- <a href="/users/profile/<%=user.id%>"><i class="fas fa-user-circle"></i><%=user.name%></a></h1>
+                <h1>Signout -- <a href="/users/signout"><i class="fas fa-sign-out-alt"></i></a></h1>
+                <% }else{%>
+                <h1>SignIn -- <a href="/users/signin"><i class="fas fa-sign-in-alt"></i></a></h1>
+                <h1>SignUp -- <a href="/users/signup"><i class="fas fa-user-plus"></i></a></h1>
+        <%}%>
+
+</div>

@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="/css/header.css">
+<header>
+
+    <div><h1>Authentication System</h1></div>
+    <ul>
+        <li><a href="/"><i class="fas fa-home"></i></a></li>
+        <% if(locals.user){%>
+        <li><a href="/users/profile/<%=user.id%>"><i class="fas fa-user-circle"></i><%=user.name%></a></li>
+        <li><a href="/users/signout"><i class="fas fa-sign-out-alt"></i></a></li>
+        <% }else{%>
+            <li><a href="/users/signin"><i class="fas fa-sign-in-alt"></i></a></li>
+            <li><a href="/users/signup"><i class="fas fa-user-plus"></i></a></li>
+            <%}%>
+    </ul>
+
+</header>

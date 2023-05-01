@@ -1,0 +1,11 @@
+#footer-container {
+  text-align: center;
+  background-color: #ebebeb;
+  margin: 0;
+  height: 5vh; }
+  #footer-container p {
+    color: black;
+    margin-top: 0px;
+    padding: 5px; }
+    #footer-container p small {
+      color: #008080; }

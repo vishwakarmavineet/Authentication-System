@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="/css/signup.css">
+<div id="signup-container">
+<h1>Register</h1>
+<form action="/users/create" method="POST">
+    <input type="text" name="name" id="signup-name" required placeholder="Enter your name">
+    <input type="email" name="email" id="signup-email" required placeholder="Enter your email">
+    <input type="password" name="password" id="signup-password" required placeholder="Generate strong password">
+    <input type="password" name="confirm_password" required placeholder="Confirm your password">
+    <button type="submit" id="singup-btn">Sign Up</button>
+</form>
+<p>Already Registered? <a href="/users/signin">Login Here</a></p>
+<p>
+    <a href="/users/auth/google">Google Sign In/ Sign Up</a>
+</p>
+</div>

@@ -1,0 +1,33 @@
+header {
+  margin: 0;
+  padding: 0;
+  background-color: #D0DAEE;
+  color: black;
+  height: 5vh; }
+  header div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    display: inline; }
+  header ul {
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    list-style-type: none;
+    display: inline;
+    float: right; }
+    header ul li {
+      padding: 20px;
+      font-weight: 5000;
+      font-size: 1.5rem;
+      display: inline; }
+      header ul li a {
+        color: black;
+        text-decoration: none; }
+      header ul li a:hover {
+        color: #008080;
+        text-decoration: underline; }
+  header h1 {
+    color: #008080;
+    display: inline;
+    padding: 10px; }
