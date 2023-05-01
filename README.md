@@ -29,7 +29,7 @@
     </ul>
 
 <h2>Run the code</h2> <br>
-    $ git clone https://github.com/abhishekdangi006/Authentication-System-Nodejs <br>
+    $ git clone https://github.com/vishwakarmavineet/Authentication-System <br>
     $ cd Authentication-System-Nodejs <br>
     $ npm install <br>
     $ npm start <br>
